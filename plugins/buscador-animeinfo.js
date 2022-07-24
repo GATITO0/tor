@@ -1,4 +1,4 @@
-import translate from 'translate-brave-api'
+import translate from 'translate-google-api'
 import fetch from 'node-fetch'
 import cheerio from 'cheerio'
 let handler = async (m, { conn, text }) => {
